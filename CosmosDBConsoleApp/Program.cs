@@ -9,10 +9,10 @@ using CosmosDBConsoleApp;
 public class Program
 {
     //The Azure Cosmos DB endpoint for running this app.
-    private static readonly string EndpointUri = "https://azurecosmoaccount.documents.azure.com:443/";
+    private static readonly string EndpointUri = "";
 
     //Primary key for the Azure Cosmos Account
-    private static readonly string PrimaryKey = "u9uQWotKDoJBHPDVbkD9TmnHhs8KcB5DV6k7VvNsAQ1wkeAxUs6rYpZT6C8qQgGGXAI3v1tDtI75hqKu2Bkmjw==";
+    private static readonly string PrimaryKey = "";
 
     private CosmosClient _client;
 
